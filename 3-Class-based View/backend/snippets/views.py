@@ -1,5 +1,4 @@
 # 1) ////////// Class-based Views ////////////
-
 # from snippets.models import Snippet
 # from snippets.serializers import SnippetSerializer
 # from django.http import Http404
@@ -18,16 +17,15 @@
 #         return Response(serializer.data)
 
 #     def post(self, request, format=None):
-#         serializer = SnippetSerializer(data=request.data)
+#         data = request.data
+#         serializer = SnippetSerializer(data=data)
 #         if serializer.is_valid():
 #             serializer.save()
 #             return Response(serializer.data, status=status.HTTP_201_CREATED)
 #         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-
-# 2) ////////// Class-based Views ////////////
-
+# # 2) ////////// Class-based Views ////////////
 # from snippets.models import Snippet
 # from snippets.serializers import SnippetSerializer
 # from django.http import Http404

@@ -28,3 +28,4 @@ class SnippetSerializer(serializers.Serializer):
         instance.style = validated_data.get('style', instance.style)
         instance.save()
         return instance
+    

@@ -1,10 +1,10 @@
 # ///////////////////////////////////////
 import requests
 
-endpoint = "http://127.0.0.1:8000/api/5/update/"
+endpoint = "http://127.0.0.1:8000/api/6/update/"
 
 data = {
-    'title': 'book updated',
+    'title': 'book 9',
     'code':'book code updated'   
 }
 
